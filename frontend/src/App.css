@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:gray;
+  padding:10px;
+  width:600px;
+  border-radius:20px;
+  height:300px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+.form h2{
+  font-weight:bold;
+  font-size:40px;
+}
+.form div input[type="text"],input[type="password"]{
+  border-radius:10px;
+padding:7px;
+width:350px;
+}
+label{
+  margin-right:7px;
+}
+button{
+ width:200px;
+ font-weight: bold;
+}
+input:focus{
+outline:none;
+}
+.link a{
+  color:black;
+  font-weight:bold;
+  font-size:20px;
+}
+.link a:hover{
+  color:rgb(24, 23, 23);
+}
+.link{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  gap:10px;
+}
