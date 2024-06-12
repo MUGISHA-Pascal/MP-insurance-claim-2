@@ -6,13 +6,17 @@ import CreateClaim from './components/CreateClaim';
 import UpdateClaim from './components/UpdateClaim';
 import PrivateRoute from './components/PrivateRoute';
 import Example from './Example';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
+    <div>
+      <Header/>
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/register"exact element={<Register />}/>
+          <Route path="/"exact element={<Register />}/>
           <Route path="/login" exact element={<Login/>} />
           <Route path="/claims" exact element={<Claims/>} />
           <Route path="/create-claim" exact element={<CreateClaim/>} />
@@ -20,8 +24,8 @@ function App() {
         </Routes>
       </div>
     </Router>
-    
-  
+    <Footer/>
+    </div>
   );
 }
 
