@@ -39,6 +39,22 @@ than the one it was loaded from. This helps prevent  malicious scripts from stea
        <p>Property and Casualty (P&C) Claims: These claims involve damage or loss to property or injuries sustained by a person. They can be further broken down into:
 Homeowner's Insurance Claims,Car Insurance Claims ,Business Interruption Claims</p>
       </div>
+      <div>
+        <img src="./Assets/Images/im4.png" alt="" className='im4' />
+        <p>Health Insurance Claims: These claims are filed to recover the cost of medical treatment, surgery, hospitalization, or prescription drugs.</p>
+      </div>
+      <div>
+        <img src="./Assets/Images/im3.png" className='im3' alt="" />
+        <p>Liability Claims: These claims are filed against you by someone else who alleges you caused them injury or property damage.  Your insurance company will typically defend you in court and cover any settlements or judgments up to the policy limits.</p>
+      </div>
+      <div>
+        <img src="./Assets/Images/im2.png" className='im2' alt="" />
+      <p>Life Insurance Claims: This claim is filed upon the death of the insured person. The beneficiary named in the policy receives the death benefit.</p>
+      </div>
+      <div>
+        <img src="./Assets/Images/im1.png" className='im1' alt="" />
+        <p>Natural Disaster Claims: These claims are filed after a natural disaster such as a hurricane, tornado, or earthquake damages your property.</p>
+      </div>
      </div>
       </div>
     <div className='claims'>
