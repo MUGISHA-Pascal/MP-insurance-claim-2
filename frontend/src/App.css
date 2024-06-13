@@ -2,6 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  /* width: 1500px; */
   text-align: center;
 }
 
@@ -151,6 +152,7 @@ button[type="submit"] {
 .claims-gen {
   display: flex;
   flex-direction: row;
+  gap: 70px;
 }
 
 .images {
@@ -167,22 +169,63 @@ button[type="submit"] {
 .images-sub1 p {
   width: 300px;
 }
-.images-sub2 div{
-  display:flex;
-  flex-direction:row;
+
+.images-sub2 div {
+  display: flex;
+  flex-direction: row;
+  gap:30px;
 }
-.im5{
-  width:200px;
+.images-sub2{
+  display: flex;
+  flex-direction:column;
+  gap:30px;
 }
-.im4{
-  width:200px;
+
+.im5 {
+  width:150px;
 }
-.im3{
-  width:200px;
+
+.im4 {
+  width:150px;
 }
-.im2{
-  width:200px;
+
+.im3 {
+  width: 150px;
 }
-.im1{
-  width:200px;
+
+.im2 {
+  width: 150px;
+}
+
+.im1 {
+  width: 150px;
+}
+
+.images {
+  overflow-y: auto;
+  height: 600px;
+  width: 700px;
+  padding: 20px;
+}
+
+body {
+  background-color: #323232;
+}
+.h2{
+  font-weight:bold;
+  font-size:30px;
+margin-top:30px;
+}
+h3{
+  font-weight:bold;
+  font-size:30px;
+}
+.p{
+  background-color:black;
+  color:white;
+  width:190px;
+  font-weight: bold;
+padding:7px;
+border-radius:10px;
+margin-top:10px;
 }
