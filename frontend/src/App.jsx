@@ -21,6 +21,7 @@ function App() {
           <Route path="/claims" exact element={<Claims/>} />
           <Route path="/create-claim" exact element={<CreateClaim/>} />
           <Route path="/update-claim/:id" exact element={<UpdateClaim/>} />
+          {/* <Route path="/logout" exact element={<Logout/>} /> */}
         </Routes>
       </div>
     </Router>

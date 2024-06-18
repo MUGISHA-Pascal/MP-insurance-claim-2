@@ -61,11 +61,11 @@ Homeowner's Insurance Claims,Car Insurance Claims ,Business Interruption Claims<
     <div className='claims'>
       <h3>create an insurance claim</h3>
       <Link to="/create-claim"><p className='p'>Create New Claim</p></Link>
-      <ul> 
+      <ul className='ul-render'> 
         {claims.map(claim => (
-          <li key={claim._id}>
-            {claim.title} - {claim.description} - ${claim.amount}
-            <Link to={`/update-claim/${claim._id}`}>Edit</Link>
+          <li key={claim._id} className='li-render'>
+            {claim.title} - {claim.description} - {claim.amount}
+            <Link to={`/update-claim/${claim._id}`} className='link-edit' >Edit</Link>
             <button onClick={() => handleDelete(claim._id)}>Delete</button>
           </li>
         ))}

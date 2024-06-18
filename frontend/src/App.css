@@ -173,20 +173,21 @@ button[type="submit"] {
 .images-sub2 div {
   display: flex;
   flex-direction: row;
-  gap:30px;
+  gap: 30px;
 }
-.images-sub2{
+
+.images-sub2 {
   display: flex;
-  flex-direction:column;
-  gap:30px;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .im5 {
-  width:150px;
+  width: 150px;
 }
 
 .im4 {
-  width:150px;
+  width: 150px;
 }
 
 .im3 {
@@ -211,21 +212,59 @@ button[type="submit"] {
 body {
   background-color: #323232;
 }
-.h2{
-  font-weight:bold;
-  font-size:30px;
-margin-top:30px;
-}
-h3{
-  font-weight:bold;
-  font-size:30px;
-}
-.p{
-  background-color:black;
-  color:white;
-  width:190px;
+
+.h2 {
   font-weight: bold;
-padding:7px;
-border-radius:10px;
-margin-top:10px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.p {
+  background-color: black;
+  color: white;
+  width: 190px;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.li-render {
+  background-color: black;
+  height: 50px;
+  padding-top: 7px;
+}
+
+.ul-render {
+  margin-top: 10px;
+}
+
+.link-edit {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 6px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.link-edit:hover {
+  border-color: grey;
+  color: white;
+}
+
+.li-render button {
+  padding: 3px;
+  width: 100px;
 }

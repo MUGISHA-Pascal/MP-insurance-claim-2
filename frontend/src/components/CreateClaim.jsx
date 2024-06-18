@@ -31,7 +31,9 @@ const CreateClaim = () => {
         <label className='n'>Amount:</label>
         <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} required />
       </div>
+  
       <button type="submit">Create</button>
+    
     </form>
     </div>
   );

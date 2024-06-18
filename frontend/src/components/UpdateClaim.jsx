@@ -32,10 +32,11 @@ const UpdateClaim = () => {
   };
 
   return (
+    <div className='form'>
     <form onSubmit={handleSubmit}>
       <h2>Update Claim</h2>
       <div>
-        <label>Title:</label>
+        <label className='t'>Title:</label>
         <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} required />
       </div>
       <div>
@@ -43,11 +44,12 @@ const UpdateClaim = () => {
         <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} required />
       </div>
       <div>
-        <label>Amount:</label>
+        <label className='n'>Amount:</label>
         <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} required />
       </div>
       <button type="submit">Update</button>
     </form>
+    </div>
   );
 };
 
