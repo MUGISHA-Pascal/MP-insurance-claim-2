@@ -4,6 +4,7 @@
   padding: 2rem;
   /* width: 1500px; */
   text-align: center;
+  padding-top: 100px;
 }
 
 .logo {
@@ -128,6 +129,11 @@ button[type="submit"] {
   left: 0;
   background-color: grey;
   height: 50px;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .footer {
@@ -257,6 +263,27 @@ h3 {
   color: white;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.nav-header {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-header a:hover {
+  color: rgb(81, 79, 79);
+  transition: border-color 0.25s;
+
+}
+
+.insu-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-header a {
+  color: white;
+  font-weight: bold;
 }
 
 .link-edit:hover {
